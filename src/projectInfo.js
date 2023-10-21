@@ -33,11 +33,11 @@ export const projectInfo = [
       "In my Master’s thesis, I delve into genetic mutations and their impact on adaptation in S. cerevisiae. My main goal is to unravel the intricacies of the fitness landscape experienced by strains during the adaptation process. To achieve this, I am developing a specialized pipeline to introduce several mutations in yeast cells. By dissecting the genetic components that drive adaptation, I aim to gain a deeper understanding of how organisms evolve in response to changing environments, ultimately contributing valuable insights to the broader field of evolutionary biology.",
   },
   {
-    name: "Project 3",
-    date: "November 2021",
-    link: "??",
-    skills: ["Python", "Classification", "Clustering", "SK-Learn"],
-    description: "Description",
+     name: "Histology of pig and chicken lymphoid organs",
+    date: "May 2023",
+    link: "???",
+    skills: ["Histological Analysis", "Microscopy Techniques"],
+    description: "In this project, I delved into histology as a vital component of my immunology practicals. My primary focus was on the examination of histological sections from pig and chicken lymphoid organs, with an emphasis on understanding how these samples were prepared. This work aimed to deepen my practical knowledge of immunology, specifically in the context of histological analysis and the techniques involved in sample preparation.",
   },
   {
     name: "Project 3",
