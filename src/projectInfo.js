@@ -35,7 +35,7 @@ export const projectInfo = [
   {
     name: "Project 3",
     date: "November 2021",
-    link: "???",
+    link: "??",
     skills: ["Python", "Classification", "Clustering", "SK-Learn"],
     description: "Description",
   },
