@@ -2,7 +2,7 @@ export const projectInfo = [
  {
     name: "Characterizing the fitness landscape of adaptation using high-throughput genome editing",
     date: "September - June 2023",
-    link: "???",
+    link: "https://voneschlab.sites.vib.be/en",
     skills: [
       "CRISPR/Cas9 genome engineering",
       "Next-generation sequencing",
@@ -15,7 +15,7 @@ export const projectInfo = [
  {
     name: "Resistance development of Pseudomonas aeruginosa over the past half-century",
     date: "May 2023",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Resistance%20development%20of%20Pseudomonas%20aeruginosa%20over%20the%20past%20half-century.pdf",
     skills: ["Genomic Analysis", "Data Quality Assurance", "Bioinformatics Tools"],
     description:
       "Investigated antibiotic resistance development in Pseudomonas aeruginosa. Using whole-genome analysis and next-generation sequencing, I compared strains isolated before and after 1940 to study the evolution of antibiotic resistance. The analysis focused on aminoglycoside and fluoroquinolone resistance mechanisms, examining the presence of aminoglycoside-modifying enzymes and mutations in key proteins.",
@@ -23,21 +23,21 @@ export const projectInfo = [
   {
     name: "3D analysis of the Fv structure of the IgE SPE-7 in complex with acenaphthenequinone",
     date: "May 2023",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Immunology_1OAX_MarieVerdonck.pdf",
     skills: ["Structural Biology", "PyMOL"],
     description: "Structural analysis of an antibody-antigen complex using PyMOL. Gained insights into the antigen-binding sites by identifying complementarity-determining regions within the antibody",
   },
   {
      name: "Histology of pig and chicken lymphoid organs",
     date: "May 2023",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Histology%20of%20pig%20and%20chicken%20lymphoid%20organs.pdf",
     skills: ["Histological Analysis", "Microscopy Techniques"],
     description: "Delved into histology as a vital component of my immunology practicals. Primary focus was on the examination of histological sections from pig and chicken lymphoid organs, with an emphasis on understanding how these samples were prepared.",
   },
    {
     name: "Antimicrobial production in nontoxigenic Clostridium botulinum",
     date: "February - June 2022",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Article%26Poster_Antimicrobial%20production%20in%20nontoxigenic%20Clostridium%20botulinum%202.pdf",
     skills: [
       "Genomic Analysis",
       "Microbiological Techniques",
@@ -49,22 +49,35 @@ export const projectInfo = [
   {
     name: "Applying Systems Biology to Give Lone Genes a Meaning",
     date: "August-December 2021",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Applying%20Systems%20Biology%20to%20Give%20Lone%20Genes%20a%20Meaning.pdf",
     skills: ["Cytoscape", "Overrepresentation analysis", "Network Analysis"],
     description:
       "In this project, I delved into Systems Biology, exploring 25 specific genes. Using statistical tools and databases like BiNGO, Reactome, Panther, UniProtKB, and more, I constructed a network in Cytoscape focused on the human immune system. Comparing gene expression in colorectal cancer and normal tissue, I found lower expression of apoptotic genes and the overexpression of SOCS1 and SMAD3, promoting tumor formation. This work highlighted the dynamic nature of biological systems and their potential in cancer treatment.",
   },
    {
+    name: "Process Control: Heat Exchange in Two Tanks",
+    date: "September - November 2021",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Project%20T%3A%20Heat%20Exchange%20in%20Two%20Tanks.pdf",
+    skills: [
+      "MATLAB",
+      "Next-generation sequencing",
+      "Bacterial and yeast transformation",
+      "Molecular cloning",
+    ],
+    description:
+      "Built a model to simulate and analyze a system of heat exchange between two tanks. +++ ",
+  },
+ {
     name: "Analyzing how transposon Tn3E.F. influences antibiotic resistance in E. coli strains S17.1 and C2110",
     date: "November 2021",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Analyzing%20how%20transposon%20Tn3E.F.%20influences%20antibiotic%20resistance%20in%20E.%20coli%20strains%20S17.1%20and%20C2110.pdf",
     skills: ["Genetic Manipulation", "Molecular Biology Techniques"],
     description: "Used transposons to introduce mutations in E. coli to alter the resistance characteristics of the target plasmid. The goal was to investigate the mutagenic capabilities of transposons and their broader scientific relevance.",
   },
  {
     name: "Using the QuickChange method to introduce mutations into algL whilst adding a restriction site for BpmI",
     date: "November 2021",
-    link: "???",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Using%20the%20QuickChange%20method%20to%20introduce%20mutations%20into%20algL%20whilst%20adding%20a%20restriction%20site%20for%20BpmI%20.pdf",
     skills: ["Genetic Manipulation", "Molecular Biology Techniques"],
     description: "Conducted site-directed mutagenesis to introduce specific genetic mutations in Pseudomonas fluorescens. The goal was to investigate genetic modification techniques, contributing to a deeper understanding of precise genetic alterations and their broader applications.",
   },
