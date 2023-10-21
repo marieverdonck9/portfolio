@@ -12,6 +12,14 @@ export const projectInfo = [
     description:
       "In my Master’s thesis, I delve into genetic mutations and their impact on adaptation in S. cerevisiae. My main goal is to unravel the intricacies of the fitness landscape experienced by strains during the adaptation process. To achieve this, I am developing a specialized pipeline to introduce several mutations in yeast cells. By dissecting the genetic components that drive adaptation, I aim to gain a deeper understanding of how organisms evolve in response to changing environments, ultimately contributing valuable insights to the broader field of evolutionary biology.",
   },
+ {
+    name: "Resistance development of Pseudomonas aeruginosa over the past half-century",
+    date: "May 2023",
+    link: "???",
+    skills: ["Genomic Analysis", "Data Quality Assurance", "Bioinformatics Tools"],
+    description:
+      "Investigated antibiotic resistance development in Pseudomonas aeruginosa. Using whole-genome analysis and next-generation sequencing, I compared strains isolated before and after 1940 to study the evolution of antibiotic resistance. The analysis focused on aminoglycoside and fluoroquinolone resistance mechanisms, examining the presence of aminoglycoside-modifying enzymes and mutations in key proteins.",
+  },
   {
     name: "3D analysis of the Fv structure of the IgE SPE-7 in complex with acenaphthenequinone",
     date: "May 2023",
