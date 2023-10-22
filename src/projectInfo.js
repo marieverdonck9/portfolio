@@ -60,12 +60,11 @@ export const projectInfo = [
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Project%20T%3A%20Heat%20Exchange%20in%20Two%20Tanks.pdf",
     skills: [
       "MATLAB",
-      "Next-generation sequencing",
-      "Bacterial and yeast transformation",
-      "Molecular cloning",
+      "Dynamic Process Modeling",
+      "Feedback Control",
     ],
     description:
-      "Built a model to simulate and analyze a system of heat exchange between two tanks. +++ ",
+      "Developed a model to simulate and analyze a heat exchange system between two tanks to understand the basics of modeling and linearization of dynamic processes and gain knowledge of process control. I explored the power and limitations of the feedback principle, recognizing how instability can manifest in dynamic systems.",
   },
  {
     name: "Analyzing how transposon Tn3E.F. influences antibiotic resistance in E. coli strains S17.1 and C2110",
