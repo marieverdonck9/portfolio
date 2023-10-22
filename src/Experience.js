@@ -9,8 +9,7 @@ export default function Experience() {
           Leuven (Sept 2023 - Present)
         </p>
         <p className="text-sm font-light">
-          Starting a lab position in September for my master’s thesis at Vonesch
-          Lab
+          Performing high-throughout genome engineering to unravel the genetic basis of adaptation in Saccharomyces cerevisiae for my master’s thesis at Vonesch Lab
         </p>
       </div>
       <div className="border p-5 rounded-sm shadow mb-4">
