@@ -4,30 +4,37 @@ import { projectInfo } from "./projectInfo";
 import Education from "./Education";
 import Experience from "./Experience";
 import Volunteering from "./Volunteering";
+import banner from "./assets/banner.jpg";
 
 export default function Portfolio() {
-  const [activeIndex, setActiveIndex] = React.useState(null);
-
-  const handleClick = (index) => {
-    if (index === activeIndex) {
-      setActiveIndex(null);
-    } else {
-      setActiveIndex(index);
-    }
-  };
+  const [educationOpen, setEducationOpen] = React.useState(false);
+  const [experienceOpen, setExperienceOpen] = React.useState(false);
 
   return (
     <div className="flex-1 py-4 px-0 md:py-0 md:px-4">
+      <div
+        className="space-y-2 mb-4 rounded-lg text-white text-center h-40 flex justify-center items-center p-4"
+        style={{
+          backgroundImage: `url(${banner})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          boxShadow: "inset 0 0 0 2000px rgba(0, 0, 0, 0.6)",
+        }}
+      >
+        <h1 className="text-2xl font-bold">
+          Deciphering it one gene at a time
+        </h1>
+      </div>
       <div className="space-y-2 mb-4">
         <div className="border rounded-lg">
           <div
             className="flex justify-between p-4 cursor-pointer"
-            onClick={() => handleClick(0)}
+            onClick={() => setEducationOpen(!educationOpen)}
           >
             <span className="font-semibold">Education</span>
-            <span>{activeIndex === 0 ? "-" : "+"}</span>
+            <span>{educationOpen ? "-" : "+"}</span>
           </div>
-          {activeIndex === 0 && (
+          {educationOpen && (
             <div className="p-4">
               <Education />
             </div>
@@ -38,12 +45,12 @@ export default function Portfolio() {
         <div className="border rounded-lg">
           <div
             className="flex justify-between p-4 cursor-pointer"
-            onClick={() => handleClick(1)}
+            onClick={() => setExperienceOpen(!experienceOpen)}
           >
             <span className="font-semibold">Experience</span>
-            <span>{activeIndex === 1 ? "-" : "+"}</span>
+            <span>{experienceOpen ? "-" : "+"}</span>
           </div>
-          {activeIndex === 1 && (
+          {experienceOpen && (
             <div className="p-4">
               <Experience />
             </div>

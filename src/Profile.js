@@ -45,7 +45,7 @@ export default function Profile() {
         <h1 className="font-semibold mt-3 w-">Skills</h1>
         <div className="w-full flex flex-wrap">
           {skills.map((skill) => (
-            <p className="text-sm font-light py-1 px-2 bg-indigo-50 rounded-full m-1 text-indigo-700">
+            <p className="text-sm font-light py-1 px-2 bg-blue-50 rounded-full m-1 text-blue-700">
               {skill}
             </p>
           ))}
