@@ -22,7 +22,7 @@ export default function Portfolio() {
         }}
       >
         <h1 className="text-2xl font-bold">
-          Deciphering it one gene at a time
+          Looking for genetic keys to beat cancer
         </h1>
       </div>
       <div className="space-y-2 mb-4">
