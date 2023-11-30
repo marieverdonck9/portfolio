@@ -40,6 +40,22 @@ export const projectInfo = [
     description:
       "Delved into histology as a vital component of my immunology practicals. Primary focus was on the examination of histological sections from pig and chicken lymphoid organs, with an emphasis on understanding how these samples were prepared.",
   },
+   {
+    name: "Summary & Critique of 'An adaptive interaction between cell type and metabolism drives ploidy evolution in a wild yeast' presented by John Crandall.",
+    date: "November 2022",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/MarieVerdonck_Seminar%20Review%20Paper%20Assignment.pdf",
+    skills: ["Writing Sample"],
+    description:
+      "I provided a summary and critique of John Crandall's compelling findings on the adaptive interaction between cell type and metabolism driving ploidy evolution in wild yeast. This research significantly contributes to unraveling the genotype-to-phenotype map in yeasts, a crucial objective in genetics and evolutionary biology. As a genetics student with a keen interest in biotechnology, gaining mechanistic insights into environment-cell type fitness interactions was particularly exciting. The lecture heightened my interest in fungal karyotypic evolution, its potential applications, and the broader implications for fungal (evolutionary) biology.",
+  },
+   {
+    name: "Summary & Critique of 'Understanding the Cas13 dependent and independent silencing in plants' presented by Divya Mishra",
+    date: "November 2022",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/MarieVerdonck_WrittenReport.pdf",
+    skills: ["Writing Sample"],
+    description:
+      "I composed a summary and critique of Divya Mishra's presentation, exploring her groundbreaking discovery of Cas13-dependent and independent RNA silencing. This innovative approach holds promise for advancements in plant engineering and virus treatment. As a genetics student deeply interested in biotechnology's applications in animals, plants, and food, I found great satisfaction in learning about this novel process.",
+  },
   {
     name: "Antimicrobial production in nontoxigenic Clostridium botulinum",
     date: "February - June 2022",
