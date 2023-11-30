@@ -23,14 +23,22 @@ export default function Profile() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={linkedin} className="mr-1" alt="linkedin profile" />
+            <img
+              src={linkedin}
+              className="mr-1 hover:-translate-y-1 transition-all duration-150 ease-in-out"
+              alt="linkedin profile"
+            />
           </a>
           <a
             href="mailto:marieverdonck9@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mail} alt="email" />
+            <img
+              src={mail}
+              className="hover:-translate-y-1 transition-all duration-150 ease-in-out"
+              alt="email"
+            />
           </a>
         </div>
 

@@ -14,7 +14,7 @@ export default function Project({ title, date, link, skills, description }) {
       </div>
       <p className="my-2 text-sm font-light">{description}</p>
       <a href={link} target="_blank" without rel="noreferrer">
-        <button className="text-xs px-5 py-1 rounded-sm bg-blue-200">
+        <button className="text-white text-xs px-5 py-1 rounded-sm bg-blue-700">
           Read more
         </button>
       </a>
