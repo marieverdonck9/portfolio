@@ -46,7 +46,7 @@ export const projectInfo = [
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/MarieVerdonck_Seminar%20Review%20Paper%20Assignment.pdf",
     skills: ["Writing Sample"],
     description:
-      "I provided a summary and critique of John Crandall's compelling findings on the adaptive interaction between cell type and metabolism driving ploidy evolution in wild yeast. This research significantly contributes to unraveling the genotype-to-phenotype map in yeasts, a crucial objective in genetics and evolutionary biology. As a genetics student with a keen interest in biotechnology, gaining mechanistic insights into environment-cell type fitness interactions was particularly exciting. The lecture heightened my interest in fungal karyotypic evolution, its potential applications, and the broader implications for fungal (evolutionary) biology.",
+      "I provided a summary and critique of John Crandall's compelling findings on the adaptive interaction between cell type and metabolism driving ploidy evolution in wild yeast. This research significantly contributes to unraveling the genotype-to-phenotype map in yeasts, a crucial objective in genetics and evolutionary biology. As a genetics student with a keen interest in biotechnology, gaining mechanistic insights into environment-cell type fitness interactions was particularly exciting.",
   },
   {
     name: "Summary & Critique of 'Understanding the Cas13 dependent and independent silencing in plants' presented by Divya Mishra",
