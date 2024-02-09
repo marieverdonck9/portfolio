@@ -10,7 +10,15 @@ export const projectInfo = [
       "Molecular cloning",
     ],
     description:
-      "In my Master’s thesis, I delve into genetic mutations and their impact on adaptation in  S. cerevisiae . My main goal is to unravel the intricacies of the fitness landscape experienced by strains during the adaptation process. To achieve this, I am developing a specialized pipeline to introduce several mutations in yeast cells. By dissecting the genetic components that drive adaptation, I aim to gain a deeper understanding of how organisms evolve in response to changing environments, ultimately contributing valuable insights to the broader field of evolutionary biology.",
+      "Delving into genetic mutations and their impact on adaptation in  S. cerevisiae . My main goal is to unravel the intricacies of the fitness landscape experienced by strains during the adaptation process. To achieve this, I am developing a specialized pipeline to introduce several mutations in yeast cells. By dissecting the genetic components that drive adaptation, I aim to gain a deeper understanding of how organisms evolve in response to changing environments, ultimately contributing valuable insights to the broader field of evolutionary biology.",
+  },
+  {
+    name: "Enhancing bTB Diagnosis: CXCL9 Detection via Quartz Crystal Microbalance",
+    date: "January 2024",
+    link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Enhancing%20bTB%20Diagnosis%3A%20CXCL9%20Detection%20via%20Quartz%20Crystal%20Microbalance%20.pdf",
+    skills: ["Writing Sample"],
+    description:
+      "Crafted a project proposal to enhance bovine tuberculosis diagnosis. Proposed a novel diagnostic tool that incorporates specific antigens for enhanced specificity and detection of early immune response biomarkers using an antibody-coated Quartz Crystal Microbalance biosensor. The goal of this work was to actively search for scientific questions or problems in animal production and design a strategy to answer or solve these problems/questions using biotechnology.",
   },
   {
     name: "Resistance development of Pseudomonas aeruginosa over the past half-century",
@@ -46,7 +54,7 @@ export const projectInfo = [
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/MarieVerdonck_Seminar%20Review%20Paper%20Assignment.pdf",
     skills: ["Writing Sample"],
     description:
-      "I provided a summary and critique of John Crandall's compelling findings on the adaptive interaction between cell type and metabolism driving ploidy evolution in wild yeast. This research significantly contributes to unraveling the genotype-to-phenotype map in yeasts, a crucial objective in genetics and evolutionary biology. As a genetics student with a keen interest in biotechnology, gaining mechanistic insights into environment-cell type fitness interactions was particularly exciting.",
+      "Provided a summary and critique of John Crandall's compelling findings on the adaptive interaction between cell type and metabolism driving ploidy evolution in wild yeast. This research significantly contributes to unraveling the genotype-to-phenotype map in yeasts, a crucial objective in genetics and evolutionary biology. As a genetics student with a keen interest in biotechnology, gaining mechanistic insights into environment-cell type fitness interactions was particularly exciting.",
   },
   {
     name: "Summary & Critique of 'Understanding the Cas13 dependent and independent silencing in plants' presented by Divya Mishra",
@@ -54,7 +62,7 @@ export const projectInfo = [
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/MarieVerdonck_WrittenReport.pdf",
     skills: ["Writing Sample"],
     description:
-      "I composed a summary and critique of Divya Mishra's presentation, exploring her groundbreaking discovery of Cas13-dependent and independent RNA silencing. This innovative approach holds promise for advancements in plant engineering and virus treatment. As a genetics student deeply interested in biotechnology's applications in animals, plants, and food, I found great satisfaction in learning about this novel process.",
+      "Composed a summary and critique of Divya Mishra's presentation, exploring her groundbreaking discovery of Cas13-dependent and independent RNA silencing. This innovative approach holds promise for advancements in plant engineering and virus treatment. As a genetics student deeply interested in biotechnology's applications in animals, plants, and food, I found great satisfaction in learning about this novel process.",
   },
   {
     name: "Antimicrobial production in nontoxigenic Clostridium botulinum",
@@ -66,7 +74,7 @@ export const projectInfo = [
       "Microscopy Techniques",
     ],
     description:
-      "In my Bachelor’s thesis, I explored the antimicrobial potential of three nontoxigenic Clostridium botulinum strains (1985, HA1, and ZO42). I identified bacteriocins, proteinaceous compounds with antibacterial properties, within these strains through whole genome sequence analysis. The study revealed highly potent compounds with distinct modes of action, shedding light on their potential applications as alternative antimicrobial agents.",
+      "Explored the antimicrobial potential of three nontoxigenic Clostridium botulinum strains (1985, HA1, and ZO42). I identified bacteriocins, proteinaceous compounds with antibacterial properties, within these strains through whole genome sequence analysis. The study revealed highly potent compounds with distinct modes of action, shedding light on their potential applications as alternative antimicrobial agents.",
   },
   {
     name: "Applying Systems Biology to Give Lone Genes a Meaning",
@@ -74,7 +82,7 @@ export const projectInfo = [
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Applying%20Systems%20Biology%20to%20Give%20Lone%20Genes%20a%20Meaning.pdf",
     skills: ["Cytoscape", "Overrepresentation analysis", "Network Analysis"],
     description:
-      "In this project, I delved into Systems Biology, exploring 25 specific genes. Using statistical tools and databases like BiNGO, Reactome, Panther, UniProtKB, and more, I constructed a network in Cytoscape focused on the human immune system. Comparing gene expression in colorectal cancer and normal tissue, I found lower expression of apoptotic genes and the overexpression of SOCS1 and SMAD3, promoting tumor formation. This work highlighted the dynamic nature of biological systems and their potential in cancer treatment.",
+      "Delved into Systems Biology, exploring 25 specific genes. Using statistical tools and databases like BiNGO, Reactome, Panther, UniProtKB, and more, I constructed a network in Cytoscape focused on the human immune system. Comparing gene expression in colorectal cancer and normal tissue, I found lower expression of apoptotic genes and the overexpression of SOCS1 and SMAD3, promoting tumor formation. This work highlighted the dynamic nature of biological systems and their potential in cancer treatment.",
   },
   {
     name: "Process Control: Heat Exchange in Two Tanks",

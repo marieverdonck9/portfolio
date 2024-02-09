@@ -17,9 +17,8 @@ export default function Portfolio() {
   const uniqueSkills = projectInfo
     .map((project) => project.skills)
     .reduce((allSkills, projectSkills) => [...allSkills, ...projectSkills], [])
-    .filter((skill, index, self) => self.indexOf(skill) === index);
-
-  console.log(cat);
+    .filter((skill, index, self) => self.indexOf(skill) === index)
+    .sort();
 
   React.useEffect(() => {
     const handleClickOutside = (event) => {
@@ -49,7 +48,7 @@ export default function Portfolio() {
         }}
       >
         <h1 className="text-2xl font-bold">
-          Looking for genetic keys to beat cancer
+          Looking for Genetic Keys to Beat Cancer
         </h1>
       </div>
       <div className="space-y-2 mb-4">
@@ -121,7 +120,7 @@ export default function Portfolio() {
                 >
                   <div role="none">
                     {uniqueSkills.map((skill) => (
-                      <a
+                      <p
                         className="cursor-pointer flex items-center text-gray-700 px-4 py-2 text-sm hover:bg-slate-100 transition-colors duration-150 ease-in-out"
                         onClick={(e) => {
                           e.preventDefault();
@@ -145,7 +144,7 @@ export default function Portfolio() {
                           className="mr-2"
                         />
                         {skill}
-                      </a>
+                      </p>
                     ))}
                   </div>
                 </div>
