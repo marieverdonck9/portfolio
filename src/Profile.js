@@ -44,9 +44,9 @@ export default function Profile() {
 
         <h1 className="font-semibold mt-3">About</h1>
         <p className="text-sm font-light">
-          Aspiring genetics researcher with a strong interest in oncology.
-          Currently in the final phase of my Master in Cellular and Genetic
-          Engineering at KUL. Committed to leveraging genome editing for
+          Aspiring genetics researcher with a strong interest in cancer
+          immunology. Currently in the final phase of my Master in Cellular and
+          Genetic Engineering at KUL. Committed to leveraging genome editing for
           impactful medical advancements.
         </p>
 
