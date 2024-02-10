@@ -2,8 +2,7 @@ import React from "react";
 
 export default function Volunteering() {
   return (
-    <div className=" border rounded-lg p-4 mb-4">
-      <h2 className="font-semibold mb-4">Volunteering</h2>
+    <div>
       <div className="border p-5 rounded-sm mb-4">
         <div className="flex justify-between items-center">
           <h3 className="font-semibold">ACTION SENEGAL</h3>
