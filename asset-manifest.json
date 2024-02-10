@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.561266f7.css",
-    "main.js": "/portfolio/static/js/main.01975869.js",
+    "main.css": "/portfolio/static/css/main.87003465.css",
+    "main.js": "/portfolio/static/js/main.c95e1416.js",
+    "static/media/pseudomonas_aeruginosa.jpeg": "/portfolio/static/media/pseudomonas_aeruginosa.45eb41c5ff40cc19f65f.jpeg",
     "static/media/marie.jpg": "/portfolio/static/media/marie.d6782dae52fbb67a034b.jpg",
+    "static/media/chicken_bursa.jpeg": "/portfolio/static/media/chicken_bursa.73040d2d6d967d00ca7a.jpeg",
+    "static/media/antimicrobial.jpeg": "/portfolio/static/media/antimicrobial.45dd1b263459bd5110ae.jpeg",
+    "static/media/network.jpeg": "/portfolio/static/media/network.463120b26ebeb589f43e.jpeg",
+    "static/media/cxcl9.jpeg": "/portfolio/static/media/cxcl9.d01360b173f7c5c94989.jpeg",
+    "static/media/3d_display.jpeg": "/portfolio/static/media/3d_display.774797d68a3de090841b.jpeg",
+    "static/media/crispr.jpeg": "/portfolio/static/media/crispr.d6deacc3db8b58651155.jpeg",
+    "static/media/transposon.jpeg": "/portfolio/static/media/transposon.7feb70c446b876e4021a.jpeg",
+    "static/media/addgene_plasmid.jpeg": "/portfolio/static/media/addgene_plasmid.bc126dddafb4bf7780e0.jpeg",
+    "static/media/ploidy.jpeg": "/portfolio/static/media/ploidy.3c39271314a7131af294.jpeg",
+    "static/media/fitness_landscape.jpeg": "/portfolio/static/media/fitness_landscape.e217939ed64414005f4f.jpeg",
     "static/media/banner.jpg": "/portfolio/static/media/banner.e69e596abcbfd5c34c2d.jpg",
+    "static/media/tanks.jpeg": "/portfolio/static/media/tanks.5761ed905be068e484e0.jpeg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.033b1683dcd2583d7ff2c6ce56160dac.svg",
     "static/media/mail.svg": "/portfolio/static/media/mail.6ac62bfa03e2a985535678e82ffed575.svg",
-    "main.561266f7.css.map": "/portfolio/static/css/main.561266f7.css.map",
-    "main.01975869.js.map": "/portfolio/static/js/main.01975869.js.map"
+    "main.87003465.css.map": "/portfolio/static/css/main.87003465.css.map",
+    "main.c95e1416.js.map": "/portfolio/static/js/main.c95e1416.js.map"
   },
   "entrypoints": [
-    "static/css/main.561266f7.css",
-    "static/js/main.01975869.js"
+    "static/css/main.87003465.css",
+    "static/js/main.c95e1416.js"
   ]
 }
