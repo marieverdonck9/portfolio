@@ -6,13 +6,14 @@ import Experience from "./Experience";
 import Volunteering from "./Volunteering";
 import banner from "./assets/banner.jpg";
 import Accordion, { AccordionItem } from "./Accordion";
+import Awards from "./Awards";
 
 export default function Portfolio() {
   const dropdownRef = React.useRef(null);
   const [cat, setCat] = React.useState([]);
   const [filterOpen, setFilterOpen] = React.useState(false);
 
-  const [val, setVal] = React.useState("3");
+  const [val, setVal] = React.useState("0");
 
   const uniqueSkills = projectInfo
     .map((project) => project.skills)
@@ -58,10 +59,13 @@ export default function Portfolio() {
         <AccordionItem value="1" trigger="Experience">
           <Experience />
         </AccordionItem>
-        <AccordionItem value="2" trigger="Volunteering">
+        <AccordionItem value="2" trigger="Awards">
+          <Awards />
+        </AccordionItem>
+        <AccordionItem value="3" trigger="Volunteering">
           <Volunteering />
         </AccordionItem>
-        <AccordionItem value="3" trigger="Projects">
+        <AccordionItem value="4" trigger="Projects">
           <div className="flex justify-between mb-2">
             <div className="flex items-center">
               <div

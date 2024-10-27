@@ -13,7 +13,7 @@ export default function Experience() {
         <div className="flex flex-col md:items-center md:flex-row justify-between">
           <p className="text-slate-400 text-sm font-medium">Research Student</p>
           <p className="text-slate-400 text-sm font-light">
-            Sept 2023 - Present
+            Sept 2023 - July 2024
           </p>
         </div>
         <p className="text-sm font-light">

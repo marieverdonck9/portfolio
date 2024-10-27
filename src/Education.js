@@ -3,7 +3,14 @@ import React from "react";
 export default function Education() {
   return (
     <div className="mb-4">
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 sm:gap-0">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 sm:gap-0">
+        <div className="border p-5 rounded-sm">
+          <h3 className="font-semibold">MMSc Immunology</h3>
+          <p className="text-slate-400 text-sm font-light">
+            Harvard (2024 - 2026)
+          </p>
+          <p className="text-sm font-light">Fayat & BAEF Fellow</p>
+        </div>
         <div className="border p-5 rounded-sm">
           <h3 className="font-semibold">
             MSc Cellular and Genetic Engineering

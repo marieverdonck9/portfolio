@@ -12,8 +12,7 @@ export default function Profile() {
         <img src={marie} className="rounded-full h-36" alt="Marie Verdonck" />
         <h1 className="font-semibold mt-3">Marie Verdonck</h1>
         <p className="text-sm font-light">
-          Research Intern at Vonesch Lab | Master of Science in Cellular and
-          Genetic Engineering
+          Master of Medical Sciences in Immunology at Harvard Medical School
         </p>
         <p className="text-slate-400 text-sm font-light">Belgium</p>
 
@@ -44,10 +43,10 @@ export default function Profile() {
 
         <h1 className="font-semibold mt-3">About</h1>
         <p className="text-sm font-light">
-          Aspiring genetics researcher with a strong interest in cancer
-          immunology. Currently in the final phase of my Master in Cellular and
-          Genetic Engineering at KUL. Committed to leveraging genome editing for
-          impactful medical advancements.
+          Genetics researcher with a strong interest in cancer immunology.
+          Currently working on obtaining my Master of Medical Sciences in
+          Immunology at Harvard Medical School. Committed to leveraging genome
+          editing for impactful medical advancements.
         </p>
 
         <h1 className="font-semibold mt-3 w-">Skills</h1>
