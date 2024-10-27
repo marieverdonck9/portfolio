@@ -49,7 +49,7 @@ export default function Portfolio() {
         }}
       >
         <h1 className="text-2xl font-bold">
-          Looking for Genetic Keys to Beat Cancer
+          Engineering the Immune System to Tackle Cancer
         </h1>
       </div>
       <Accordion value={val} onChange={(v) => setVal(v)}>
