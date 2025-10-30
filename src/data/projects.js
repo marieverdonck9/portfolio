@@ -1,15 +1,15 @@
-import transposon from "./assets/projects/transposon.jpeg";
-import tanks from "./assets/projects/tanks.jpeg";
-import d_display from "./assets/projects/3d_display.jpeg";
-import addgene_plasmid from "./assets/projects/addgene_plasmid.jpeg";
-import antimicrobial from "./assets/projects/antimicrobial.jpeg";
-import chicken_bursa from "./assets/projects/chicken_bursa.jpeg";
-import crispr from "./assets/projects/crispr.jpeg";
-import cxcl9 from "./assets/projects/cxcl9.jpeg";
-import fitness_landscape from "./assets/projects/fitness_landscape.jpeg";
-import network from "./assets/projects/network.jpeg";
-import ploidy from "./assets/projects/ploidy.jpeg";
-import pseudomonas_aeruginosa from "./assets/projects/pseudomonas_aeruginosa.jpeg";
+import transposon from "../assets/projects/transposon.jpeg";
+import tanks from "../assets/projects/tanks.jpeg";
+import d_display from "../assets/projects/3d_display.jpeg";
+import addgene_plasmid from "../assets/projects/addgene_plasmid.jpeg";
+import antimicrobial from "../assets/projects/antimicrobial.jpeg";
+import chicken_bursa from "../assets/projects/chicken_bursa.jpeg";
+import crispr from "../assets/projects/crispr.jpeg";
+import cxcl9 from "../assets/projects/cxcl9.jpeg";
+import fitness_landscape from "../assets/projects/fitness_landscape.jpeg";
+import network from "../assets/projects/network.jpeg";
+import ploidy from "../assets/projects/ploidy.jpeg";
+import pseudomonas_aeruginosa from "../assets/projects/pseudomonas_aeruginosa.jpeg";
 
 export const projectInfo = [
   {
@@ -22,8 +22,9 @@ export const projectInfo = [
       "Bacterial and yeast transformation",
       "Molecular cloning",
     ],
+    featured: true,
     description:
-      "Delving into genetic mutations and their impact on adaptation in  S. cerevisiae . My main goal is to unravel the intricacies of the fitness landscape experienced by strains during the adaptation process. To achieve this, I am developing a specialized pipeline to introduce several mutations in yeast cells. By dissecting the genetic components that drive adaptation, I aim to gain a deeper understanding of how organisms evolve in response to changing environments, ultimately contributing valuable insights to the broader field of evolutionary biology.",
+      "Developed a high-throughput genome-editing pipeline to study how combinations of mutations shape adaptive fitness in S. cerevisiae. Work combined CRISPR engineering and NGS analysis to map genotype-to-phenotype relationships — skills directly applicable to target discovery and functional screening in therapeutics R&D.",
     imagePath: fitness_landscape,
   },
   {
@@ -32,7 +33,7 @@ export const projectInfo = [
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Enhancing%20bTB%20Diagnosis%3A%20CXCL9%20Detection%20via%20Quartz%20Crystal%20Microbalance%20.pdf",
     skills: ["Writing Sample"],
     description:
-      "Crafted a project proposal to enhance bovine tuberculosis diagnosis. Proposed a novel diagnostic tool that incorporates specific antigens for enhanced specificity and detection of early immune response biomarkers using an antibody-coated Quartz Crystal Microbalance biosensor. The goal of this work was to actively search for scientific questions or problems in animal production and design a strategy to answer or solve these problems/questions using biotechnology.",
+      "Project proposal for a diagnostic biosensor detecting CXCL9 as an early immune biomarker for bTB using Quartz Crystal Microbalance. Emphasizes assay design, antigen selection and translational feasibility — useful experience for diagnostic R&D roles.",
     imagePath: cxcl9,
   },
   {
@@ -53,8 +54,9 @@ export const projectInfo = [
     date: "May 2023",
     link: "https://github.com/marieverdonck9/portfolio_documents/blob/main/Immunology_1OAX_MarieVerdonck.pdf",
     skills: ["Structural Biology", "PyMOL"],
+    featured: true,
     description:
-      "Structural analysis of an antibody-antigen complex using PyMOL. Gained insights into the antigen-binding sites by identifying complementarity-determining regions within the antibody",
+      "Structural analysis of an antibody–antigen complex using PyMOL to identify complementarity-determining regions and infer binding interfaces. Demonstrates structural intuition relevant to antibody engineering and therapeutic design.",
     imagePath: d_display,
   },
   {
@@ -93,8 +95,9 @@ export const projectInfo = [
       "Microbiological Techniques",
       "Microscopy Techniques",
     ],
+    featured: true,
     description:
-      "Explored the antimicrobial potential of three nontoxigenic Clostridium botulinum strains (1985, HA1, and ZO42). I identified bacteriocins, proteinaceous compounds with antibacterial properties, within these strains through whole genome sequence analysis. The study revealed highly potent compounds with distinct modes of action, shedding light on their potential applications as alternative antimicrobial agents.",
+      "Identified bacteriocin-like antimicrobial compounds in nontoxigenic Clostridium botulinum using genome mining and phenotypic assays. This project highlights experience in linking genomic signals to functional assays — a valuable skill for early-stage therapeutic discovery.",
     imagePath: antimicrobial,
   },
   {
