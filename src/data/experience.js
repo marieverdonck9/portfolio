@@ -1,35 +1,38 @@
 export const experiences = [
   {
-    company: "Garcia-Beltran Lab",
+    company: "Garcia-Beltran Lab, Ragon Institute",
     location: "Cambridge, MA",
-    role: "Thesis Internship",
+    role: "Master's Thesis Research",
     date: "Sept 2025 – Present",
-    desc: "Translational immunology projects combining experimental and computational methods to profile immune responses in cancer.",
+    desc: "Conducting translational immunology research integrating pooled CRISPR perturbations with single-cell multi-omic profiling to dissect T cell–tumor interactions and identify genetic modulators of cytotoxic function in solid tumors.",
   },
   {
     company: "Dana-Farber Cancer Institute",
     location: "Boston, MA",
-    role: "Research Internship",
+    role: "Research Intern",
     date: "Jan 2025 – Aug 2025",
-    desc: "Contributed to immune profiling studies and pipeline automation for single-cell sequencing data.",
+    desc: "Developed automated computational pipelines for single-cell RNA sequencing analysis; contributed to immune profiling studies characterizing tumor-infiltrating lymphocyte populations in solid malignancies.",
   },
   {
-    company: "VIB (Vonesch Lab)",
-    location: "Leuven, BE",
-    role: "Research Student",
+    company: "VIB-KU Leuven Center for Microbiology",
+    location: "Leuven, Belgium",
+    role: "Master's Thesis Research",
     date: "Sept 2023 – July 2024",
     desc: (
       <>
-        High-throughput genome engineering to unravel the genetic basis of
-        adaptation in <em>Saccharomyces cerevisiae</em> (master’s thesis).
+        Engineered a high-throughput CRISPR/Cas9 genome-editing pipeline to
+        systematically map fitness landscapes of adaptive mutations in{" "}
+        <em>Saccharomyces cerevisiae</em>, combining NGS analysis with
+        quantitative phenotyping to elucidate genotype-to-phenotype
+        relationships.
       </>
     ),
   },
   {
-    company: "IAESTE",
-    location: "Leuven, BE",
-    role: "Chief Marketing",
-    date: "July 2023 – Present",
-    desc: "Managed brand presence and outreach campaigns to increase international student exchanges.",
+    company: "IAESTE Belgium",
+    location: "Leuven, Belgium",
+    role: "Chief Marketing Officer",
+    date: "July 2023 – July 2024",
+    desc: "Led marketing strategy and brand development for Belgium's premier international student exchange organization, coordinating outreach campaigns that expanded STEM internship opportunities for Belgian students globally.",
   },
 ];

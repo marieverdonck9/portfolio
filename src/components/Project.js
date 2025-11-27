@@ -1,5 +1,5 @@
 export default function Project({
-  title,
+  name,
   date,
   link,
   skills = [],
@@ -35,13 +35,13 @@ export default function Project({
           )}
           <img
             src={imagePath}
-            alt={title}
+            alt={name}
             className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
           />
         </div>
         <div className="p-4">
           <h3 className="font-bold text-sm text-slate-900 leading-snug line-clamp-2 mb-1 group-hover:text-brand-600 transition-colors">
-            {title}
+            {name}
           </h3>
           <p className="text-xs text-slate-500 mb-2">{date}</p>
           <p className="text-xs text-slate-600 leading-relaxed line-clamp-3">
@@ -66,15 +66,15 @@ export default function Project({
           )}
           <img
             src={imagePath}
-            alt={title}
+            alt={name}
             className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
           />
         </div>
       </a>
       <div className="p-5">
-        <h1 className="font-bold text-base text-slate-900 leading-tight mb-1">
-          {title}
-        </h1>
+        <h3 className="font-bold text-base text-slate-900 leading-tight mb-1">
+          {name}
+        </h3>
         <p className="text-slate-500 text-xs mb-3">{date}</p>
         <div className="flex flex-wrap gap-1.5 mb-3">
           {skills.map((skill) => {
@@ -97,11 +97,21 @@ export default function Project({
             target="_blank"
             rel="noreferrer"
             className="btn-primary inline-flex items-center gap-2"
-            aria-label={`Read more about ${title}`}
+            aria-label={`Read more about ${name}`}
           >
             Read More
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
             </svg>
           </a>
         </div>

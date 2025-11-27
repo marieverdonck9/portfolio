@@ -13,20 +13,27 @@ export default function Home() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
           </span>
           <span className="text-xs font-medium text-blue-900">
-            Currently at Ragon Institute · Harvard Medical School
+            Ragon Institute · Harvard Medical School
           </span>
         </div>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-slate-900">
-          Engineering Immunity for Cancer Therapy
+          Decoding Tumor Immunity Through Genome Engineering
         </h1>
 
         <p className="text-base md:text-lg text-slate-600 leading-relaxed mb-6 max-w-3xl">
-          I integrate <span className="font-semibold text-slate-800">genome engineering</span> and <span className="font-semibold text-slate-800">high-throughput profiling</span> to
-          uncover mechanisms that can be translated into effective cancer
-          immunotherapies. My work spans CRISPR perturbations, single-cell/NGS
-          analysis, and computational pipelines to turn data into therapeutic
-          hypotheses.
+          I integrate{" "}
+          <span className="font-semibold text-slate-800">
+            CRISPR-based functional genomics
+          </span>{" "}
+          with{" "}
+          <span className="font-semibold text-slate-800">
+            single-cell multi-omic profiling
+          </span>{" "}
+          to dissect the molecular mechanisms governing T cell antitumor
+          responses. My research bridges high-throughput perturbation screens
+          and computational analysis to identify genetic targets that enhance
+          immune cell efficacy against solid tumors.
         </p>
 
         <div className="flex flex-wrap gap-3">
@@ -47,29 +54,45 @@ export default function Home() {
 
       {/* Research Focus */}
       <section className="mb-10 p-6 md:p-8 bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-2xl">
-        <h2 className="text-xl font-bold mb-3 text-slate-900">Current Research Focus</h2>
+        <h2 className="text-xl font-bold mb-3 text-slate-900">
+          Current Research Focus
+        </h2>
         <p className="text-base text-slate-700 leading-relaxed mb-4">
-          My current work focuses on dissecting <span className="font-semibold">T cell–tumor interactions</span> using
-          pooled CRISPR perturbations coupled with single-cell readouts. I aim
-          to map regulatory networks that define cytotoxic function and
-          persistence, integrating multi-omic datasets to identify genetic
-          levers that enhance immune cell efficacy in solid tumors.
+          My thesis research focuses on dissecting{" "}
+          <span className="font-semibold">T cell–tumor interactions</span> using
+          pooled CRISPR screens coupled with single-cell transcriptomic and
+          epigenomic readouts. I aim to map the regulatory networks that define
+          cytotoxic function and persistence, integrating multi-omic datasets to
+          identify actionable genetic targets that enhance immune cell efficacy
+          against solid malignancies.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
           <div className="bg-white p-4 rounded-xl border border-slate-100">
             <div className="text-2xl mb-2">🧬</div>
-            <h3 className="font-semibold text-sm text-slate-900 mb-1">Genome Engineering</h3>
-            <p className="text-xs text-slate-600">CRISPR/Cas9 perturbations for functional genomics</p>
+            <h3 className="font-semibold text-sm text-slate-900 mb-1">
+              Functional Genomics
+            </h3>
+            <p className="text-xs text-slate-600">
+              CRISPR perturbation screens for systematic target discovery
+            </p>
           </div>
           <div className="bg-white p-4 rounded-xl border border-slate-100">
             <div className="text-2xl mb-2">🔬</div>
-            <h3 className="font-semibold text-sm text-slate-900 mb-1">Multi-Omic Profiling</h3>
-            <p className="text-xs text-slate-600">Single-cell & NGS analysis pipelines</p>
+            <h3 className="font-semibold text-sm text-slate-900 mb-1">
+              Multi-Omic Integration
+            </h3>
+            <p className="text-xs text-slate-600">
+              Single-cell RNA-seq, ATAC-seq, and proteomics analysis
+            </p>
           </div>
           <div className="bg-white p-4 rounded-xl border border-slate-100">
             <div className="text-2xl mb-2">💊</div>
-            <h3 className="font-semibold text-sm text-slate-900 mb-1">Translational Impact</h3>
-            <p className="text-xs text-slate-600">Data-driven therapeutic hypotheses</p>
+            <h3 className="font-semibold text-sm text-slate-900 mb-1">
+              Translational Impact
+            </h3>
+            <p className="text-xs text-slate-600">
+              Data-driven identification of immunotherapy targets
+            </p>
           </div>
         </div>
       </section>
@@ -78,9 +101,12 @@ export default function Home() {
       <section className="mb-8">
         <div className="flex items-center justify-between mb-4">
           <div>
-            <h2 className="text-xl font-bold text-slate-900">Featured Projects</h2>
+            <h2 className="text-xl font-bold text-slate-900">
+              Featured Research
+            </h2>
             <p className="text-sm text-slate-600 mt-1">
-              Selected work showcasing translational impact and experimental design
+              Selected projects demonstrating experimental rigor and
+              translational potential
             </p>
           </div>
           <Link

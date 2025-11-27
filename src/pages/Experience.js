@@ -1,4 +1,5 @@
 import Education from "../components/Education";
+import Awards from "../components/Awards";
 import Volunteering from "../components/Volunteering";
 import { experiences } from "../data/experience";
 
@@ -16,10 +17,26 @@ export default function Experience() {
         <Education />
       </section>
 
+      {/* Awards & Fellowships */}
+      <section className="mb-10">
+        <div className="mb-4">
+          <h2 className="text-2xl font-bold text-slate-900">
+            Honors & Fellowships
+          </h2>
+          <p className="text-sm text-slate-600 mt-1">
+            Competitive awards recognizing academic excellence and research
+            potential
+          </p>
+        </div>
+        <Awards />
+      </section>
+
       {/* Research Experience */}
       <section id="experience" className="mb-10">
         <div className="mb-4">
-          <h2 className="text-2xl font-bold text-slate-900">Research Experience</h2>
+          <h2 className="text-2xl font-bold text-slate-900">
+            Research Experience
+          </h2>
           <p className="text-sm text-slate-600 mt-1">
             Translational immunology and cancer immunotherapy research
           </p>
@@ -40,16 +57,32 @@ export default function Experience() {
                 <div className="card p-5 hover:shadow-lg transition-shadow">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
                     <div>
-                      <h3 className="text-lg font-bold text-slate-900">{e.company}</h3>
+                      <h3 className="text-lg font-bold text-slate-900">
+                        {e.company}
+                      </h3>
                       <div className="flex flex-wrap items-center gap-2 mt-1">
-                        <span className="text-sm font-semibold text-brand-600">{e.role}</span>
+                        <span className="text-sm font-semibold text-brand-600">
+                          {e.role}
+                        </span>
                         <span className="text-slate-400">·</span>
-                        <span className="text-sm text-slate-600">{e.location}</span>
+                        <span className="text-sm text-slate-600">
+                          {e.location}
+                        </span>
                       </div>
                     </div>
                     <div className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-500 bg-slate-50 px-3 py-1.5 rounded-full whitespace-nowrap">
-                      <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <svg
+                        className="h-3.5 w-3.5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
                       </svg>
                       {e.date}
                     </div>
@@ -67,7 +100,9 @@ export default function Experience() {
       {/* Volunteering and Leadership */}
       <section className="mb-6">
         <div className="mb-4">
-          <h2 className="text-2xl font-bold text-slate-900">Leadership & Service</h2>
+          <h2 className="text-2xl font-bold text-slate-900">
+            Leadership & Service
+          </h2>
           <p className="text-sm text-slate-600 mt-1">
             Community engagement and organizational leadership
           </p>
