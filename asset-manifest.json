@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b3ec9b46.css",
-    "main.js": "/portfolio/static/js/main.604f1d0f.js",
-    "static/js/418.4ad08220.chunk.js": "/portfolio/static/js/418.4ad08220.chunk.js",
+    "main.js": "/portfolio/static/js/main.97aeb1e1.js",
+    "static/js/418.e311410c.chunk.js": "/portfolio/static/js/418.e311410c.chunk.js",
     "static/js/102.35b1ca4e.chunk.js": "/portfolio/static/js/102.35b1ca4e.chunk.js",
     "static/js/703.7898cbc0.chunk.js": "/portfolio/static/js/703.7898cbc0.chunk.js",
-    "static/js/814.069c77da.chunk.js": "/portfolio/static/js/814.069c77da.chunk.js",
+    "static/js/814.f144058f.chunk.js": "/portfolio/static/js/814.f144058f.chunk.js",
     "static/media/pseudomonas_aeruginosa.jpeg": "/portfolio/static/media/pseudomonas_aeruginosa.45eb41c5ff40cc19f65f.jpeg",
     "static/media/chicken_bursa.jpeg": "/portfolio/static/media/chicken_bursa.73040d2d6d967d00ca7a.jpeg",
     "static/media/marie.jpg": "/portfolio/static/media/marie.939225c972d7c42af826.jpg",
@@ -23,14 +23,14 @@
     "static/media/tanks.jpeg": "/portfolio/static/media/tanks.5761ed905be068e484e0.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b3ec9b46.css.map": "/portfolio/static/css/main.b3ec9b46.css.map",
-    "main.604f1d0f.js.map": "/portfolio/static/js/main.604f1d0f.js.map",
-    "418.4ad08220.chunk.js.map": "/portfolio/static/js/418.4ad08220.chunk.js.map",
+    "main.97aeb1e1.js.map": "/portfolio/static/js/main.97aeb1e1.js.map",
+    "418.e311410c.chunk.js.map": "/portfolio/static/js/418.e311410c.chunk.js.map",
     "102.35b1ca4e.chunk.js.map": "/portfolio/static/js/102.35b1ca4e.chunk.js.map",
     "703.7898cbc0.chunk.js.map": "/portfolio/static/js/703.7898cbc0.chunk.js.map",
-    "814.069c77da.chunk.js.map": "/portfolio/static/js/814.069c77da.chunk.js.map"
+    "814.f144058f.chunk.js.map": "/portfolio/static/js/814.f144058f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3ec9b46.css",
-    "static/js/main.604f1d0f.js"
+    "static/js/main.97aeb1e1.js"
   ]
 }
