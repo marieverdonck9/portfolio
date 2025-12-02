@@ -2,9 +2,9 @@ import marie from "../assets/marie.jpg";
 
 const expertiseAreas = [
   { icon: "🧬", label: "CRISPR/Cas9" },
-  { icon: "🔬", label: "Single-cell NGS" },
-  { icon: "📊", label: "Genomic Analysis" },
-  { icon: "💻", label: "Python / R" },
+  { icon: "🔬", label: "Protein Design" },
+  { icon: "📊", label: "Microbiology" },
+  { icon: "💻", label: "High Performance Computing" },
   { icon: "🧪", label: "Immunology" },
   { icon: "🎯", label: "Functional Screening" },
 ];
