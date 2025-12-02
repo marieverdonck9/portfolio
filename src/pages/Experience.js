@@ -37,9 +37,6 @@ export default function Experience() {
           <h2 className="text-2xl font-bold text-slate-900">
             Research Experience
           </h2>
-          <p className="text-sm text-slate-600 mt-1">
-            Translational immunology and cancer immunotherapy research
-          </p>
         </div>
 
         <div className="relative">

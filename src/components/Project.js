@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function Project({
   name,
   date,
@@ -8,6 +10,8 @@ export default function Project({
   compact = false,
   featured = false,
 }) {
+  const [expanded, setExpanded] = useState(false);
+
   const tagColorMap = {
     "CRISPR/Cas9": "teal",
     "Genomic analysis": "purple",
@@ -88,18 +92,37 @@ export default function Project({
             );
           })}
         </div>
-        <p className="text-sm text-slate-700 leading-relaxed line-clamp-4 mb-4">
+        <p className={`text-sm text-slate-700 leading-relaxed mb-2 ${expanded ? '' : 'line-clamp-4'}`}>
           {description}
         </p>
+        <button
+          onClick={() => setExpanded((e) => !e)}
+          className="text-sm text-brand-600 font-medium hover:text-brand-700 mb-4 inline-flex items-center gap-1"
+        >
+          {expanded ? 'Show less' : 'Show more'}
+          <svg
+            className={`h-4 w-4 transition-transform ${expanded ? 'rotate-180' : ''}`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </button>
         <div>
           <a
             href={link}
             target="_blank"
             rel="noreferrer"
             className="btn-primary inline-flex items-center gap-2"
-            aria-label={`Read more about ${name}`}
+            aria-label={`View project: ${name}`}
           >
-            Read More
+            View Project
             <svg
               className="h-4 w-4"
               fill="none"
@@ -110,7 +133,7 @@ export default function Project({
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M9 5l7 7-7 7"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
               />
             </svg>
           </a>
