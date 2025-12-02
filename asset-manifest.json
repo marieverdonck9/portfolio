@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b3ec9b46.css",
-    "main.js": "/portfolio/static/js/main.bdd9262b.js",
+    "main.js": "/portfolio/static/js/main.e549a08d.js",
     "static/js/418.e311410c.chunk.js": "/portfolio/static/js/418.e311410c.chunk.js",
     "static/js/102.35b1ca4e.chunk.js": "/portfolio/static/js/102.35b1ca4e.chunk.js",
     "static/js/703.7898cbc0.chunk.js": "/portfolio/static/js/703.7898cbc0.chunk.js",
-    "static/js/814.f144058f.chunk.js": "/portfolio/static/js/814.f144058f.chunk.js",
+    "static/js/814.21f4e360.chunk.js": "/portfolio/static/js/814.21f4e360.chunk.js",
     "static/media/pseudomonas_aeruginosa.jpeg": "/portfolio/static/media/pseudomonas_aeruginosa.45eb41c5ff40cc19f65f.jpeg",
     "static/media/chicken_bursa.jpeg": "/portfolio/static/media/chicken_bursa.73040d2d6d967d00ca7a.jpeg",
     "static/media/marie.jpg": "/portfolio/static/media/marie.939225c972d7c42af826.jpg",
@@ -23,14 +23,14 @@
     "static/media/tanks.jpeg": "/portfolio/static/media/tanks.5761ed905be068e484e0.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b3ec9b46.css.map": "/portfolio/static/css/main.b3ec9b46.css.map",
-    "main.bdd9262b.js.map": "/portfolio/static/js/main.bdd9262b.js.map",
+    "main.e549a08d.js.map": "/portfolio/static/js/main.e549a08d.js.map",
     "418.e311410c.chunk.js.map": "/portfolio/static/js/418.e311410c.chunk.js.map",
     "102.35b1ca4e.chunk.js.map": "/portfolio/static/js/102.35b1ca4e.chunk.js.map",
     "703.7898cbc0.chunk.js.map": "/portfolio/static/js/703.7898cbc0.chunk.js.map",
-    "814.f144058f.chunk.js.map": "/portfolio/static/js/814.f144058f.chunk.js.map"
+    "814.21f4e360.chunk.js.map": "/portfolio/static/js/814.21f4e360.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3ec9b46.css",
-    "static/js/main.bdd9262b.js"
+    "static/js/main.e549a08d.js"
   ]
 }
