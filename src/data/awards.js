@@ -1,14 +1,20 @@
 export const awards = [
   {
     title: "Fayat Scholarship",
-    location: "Flanders, Belgium",
-    date: "2024 – 2026",
-    desc: "Prestigious merit-based scholarship awarded to exceptional Flemish students pursuing graduate studies abroad. Recipients represent Flanders internationally and join an alumni network connecting scholars with diplomatic and professional opportunities.",
+    location: "Belgium",
+    date: "2024 - 2026",
+    desc: "Students with a Fayat scholarship represent Flanders internationally and join a network that connects scholars with diplomatic and professional opportunities.",
   },
   {
-    title: "BAEF Honorary Fellowship",
-    location: "Belgian American Educational Foundation",
-    date: "2024 – 2026",
-    desc: "Competitive fellowship supporting academic exchange between Belgian and American institutions, recognizing outstanding scholars who demonstrate potential for significant contributions to their field.",
+    title: "Honorary Fellow, BAEF",
+    location: "Belgium",
+    date: "2024 - 2026",
+    desc: "Belgian American Educational Foundation fellowship supporting exchange and collaboration between Belgian and American scholars.",
+  },
+  {
+    title: "IIE Global E3 Scholarship",
+    location: "USA",
+    date: "2022",
+    desc: "Selected through the IEE GE3 international exchange program to study abroad at the University of Wisconsin–Madison for a semester during my master’s at KU Leuven.",
   },
 ];

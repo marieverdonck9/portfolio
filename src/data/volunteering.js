@@ -1,5 +1,19 @@
 export const volunteering = [
   {
+    title: "Harvard University Belgian Student Society Board Member ",
+    location: "Cambridge, MA, USA",
+    role: "Team Events",
+    date: "September 2024 – Present",
+    desc: "Organizing academic and social events that build connections among students and researchers in Boston.",
+    links: [
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/company/hubss/posts/?feedView=all",
+        primary: true,
+      },
+    ],
+  },
+  {
     title: "Action Sénégal",
     location: "Saint-Louis, Senegal",
     role: "Medical Humanitarian Mission",

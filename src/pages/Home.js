@@ -18,7 +18,7 @@ export default function Home() {
         </div>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-slate-900">
-          Decoding Tumor Immunity Through Genome Engineering
+          Engineering The Immune System for Cancer Therapy
         </h1>
 
         <p className="text-base md:text-lg text-slate-600 leading-relaxed mb-6 max-w-3xl">
@@ -58,13 +58,14 @@ export default function Home() {
           Current Research Focus
         </h2>
         <p className="text-base text-slate-700 leading-relaxed mb-4">
-          My thesis research focuses on dissecting{" "}
-          <span className="font-semibold">T cell–tumor interactions</span> using
-          pooled CRISPR screens coupled with single-cell transcriptomic and
-          epigenomic readouts. I aim to map the regulatory networks that define
-          cytotoxic function and persistence, integrating multi-omic datasets to
-          identify actionable genetic targets that enhance immune cell efficacy
-          against solid malignancies.
+          My current work focuses on developing binders against intracellular
+          antigens presented as peptide-HLA complexes. I am building a pHLA
+          binder design pipeline that integrates mass-spectrometry-based antigen
+          discovery with structural prediction and generative AI, enabling
+          scalable design of high-affinity binders for multiple HLA alleles and
+          transforming them into therapeutic formats such as CARs and
+          bispecifics. This work aims to expand the reach of immunotherapy by
+          targeting a broader array of tumor antigens with high specificity.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
           <div className="bg-white p-4 rounded-xl border border-slate-100">

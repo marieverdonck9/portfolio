@@ -48,9 +48,8 @@ export default function Profile() {
         <div className="mt-5 flex flex-col gap-2">
           <a
             className="w-full text-center btn-primary text-sm py-2.5"
-            href="/Marie_Verdonck_CV.pdf"
-            target="_blank"
-            rel="noreferrer"
+            href="/MarieVerdonck_Resume_PhD.pdf"
+            download="MarieVerdonck_Resume_PhD.pdf"
             aria-label="Download CV (PDF)"
           >
             <svg
