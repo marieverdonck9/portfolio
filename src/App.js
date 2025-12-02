@@ -6,7 +6,6 @@ import {
   NavLink,
 } from "react-router-dom";
 
-
 const Profile = lazy(() => import("./pages/Profile"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
 const Experience = lazy(() => import("./pages/Experience"));
@@ -14,7 +13,7 @@ const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:shadow"
