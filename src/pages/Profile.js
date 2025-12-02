@@ -96,9 +96,10 @@ export default function Profile() {
             Research Focus
           </h2>
           <p className="text-sm text-slate-600 leading-relaxed">
-            Translational immunologist integrating genome engineering with
-            computational biology to decode and enhance T cell antitumor
-            responses.
+            I am a translational immunologist profiling and engineering immune
+            responses against cancer. I combine wet-lab high-throughput
+            experimentation with computational modeling to generate actionable
+            insights and translate them into novel immunotherapies.
           </p>
         </div>
 
