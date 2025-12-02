@@ -139,11 +139,6 @@ function App() {
                 <div className="font-bold text-lg text-slate-900 mb-2">
                   Marie Verdonck
                 </div>
-                <p className="text-sm text-slate-600 mb-3 max-w-md">
-                  Translational immunologist integrating CRISPR-based functional
-                  genomics with computational analysis to advance cancer
-                  immunotherapy.
-                </p>
                 <div className="flex items-center gap-2 text-xs text-slate-500">
                   <svg
                     className="h-4 w-4"

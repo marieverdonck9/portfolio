@@ -1,6 +1,6 @@
 export const education = [
   {
-    degree: "Master of Medical Sciences in Immunology",
+    degree: "MMSc Immunology",
     institution: "Harvard Medical School",
     date: "2024 – 2026",
     note: "Fayat Scholar & BAEF Honorary Fellow",
