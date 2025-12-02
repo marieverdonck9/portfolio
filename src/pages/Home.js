@@ -61,32 +61,23 @@ export default function Home() {
           targeting a broader array of tumor antigens with high specificity.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
-          <div className="bg-white p-4 rounded-xl border border-slate-100">
-            <div className="text-2xl mb-2">🧬</div>
-            <h3 className="font-semibold text-sm text-slate-900 mb-1">
-              Functional Genomics
+          <div className="bg-white p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+            <div className="text-2xl">🧬</div>
+            <h3 className="font-semibold text-sm text-slate-900">
+              Immune Engineering
             </h3>
-            <p className="text-xs text-slate-600">
-              CRISPR perturbation screens for systematic target discovery
-            </p>
           </div>
-          <div className="bg-white p-4 rounded-xl border border-slate-100">
-            <div className="text-2xl mb-2">🔬</div>
-            <h3 className="font-semibold text-sm text-slate-900 mb-1">
-              Multi-Omic Integration
+          <div className="bg-white p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+            <div className="text-2xl">🔬</div>
+            <h3 className="font-semibold text-sm text-slate-900">
+              AI-Guided Design
             </h3>
-            <p className="text-xs text-slate-600">
-              Single-cell RNA-seq, ATAC-seq, and proteomics analysis
-            </p>
           </div>
-          <div className="bg-white p-4 rounded-xl border border-slate-100">
-            <div className="text-2xl mb-2">💊</div>
-            <h3 className="font-semibold text-sm text-slate-900 mb-1">
+          <div className="bg-white p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+            <div className="text-2xl">💊</div>
+            <h3 className="font-semibold text-sm text-slate-900">
               Translational Impact
             </h3>
-            <p className="text-xs text-slate-600">
-              Data-driven identification of immunotherapy targets
-            </p>
           </div>
         </div>
       </section>
