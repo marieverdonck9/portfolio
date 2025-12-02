@@ -22,18 +22,11 @@ export default function Home() {
         </h1>
 
         <p className="text-base md:text-lg text-slate-600 leading-relaxed mb-6 max-w-3xl">
-          I integrate{" "}
-          <span className="font-semibold text-slate-800">
-            CRISPR-based functional genomics
-          </span>{" "}
-          with{" "}
-          <span className="font-semibold text-slate-800">
-            single-cell multi-omic profiling
-          </span>{" "}
-          to dissect the molecular mechanisms governing T cell antitumor
-          responses. My research bridges high-throughput perturbation screens
-          and computational analysis to identify genetic targets that enhance
-          immune cell efficacy against solid tumors.
+          I’m driven by the belief that the next breakthroughs in medicine will
+          come from combining deep biological understanding with precise
+          engineering. My goal is to help pioneer this shift by developing
+          integrated experimental-computational frameworks that speed the
+          discovery and optimization of new immunotherapies.
         </p>
 
         <div className="flex flex-wrap gap-3">
