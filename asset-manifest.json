@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b3ec9b46.css",
-    "main.js": "/portfolio/static/js/main.4d36981e.js",
+    "main.css": "/portfolio/static/css/main.9ede69c3.css",
+    "main.js": "/portfolio/static/js/main.c20703b8.js",
     "static/js/418.eee2a2b7.chunk.js": "/portfolio/static/js/418.eee2a2b7.chunk.js",
     "static/js/102.35b1ca4e.chunk.js": "/portfolio/static/js/102.35b1ca4e.chunk.js",
-    "static/js/703.7898cbc0.chunk.js": "/portfolio/static/js/703.7898cbc0.chunk.js",
+    "static/js/703.b1bf620e.chunk.js": "/portfolio/static/js/703.b1bf620e.chunk.js",
     "static/js/814.21f4e360.chunk.js": "/portfolio/static/js/814.21f4e360.chunk.js",
     "static/media/pseudomonas_aeruginosa.jpeg": "/portfolio/static/media/pseudomonas_aeruginosa.45eb41c5ff40cc19f65f.jpeg",
     "static/media/chicken_bursa.jpeg": "/portfolio/static/media/chicken_bursa.73040d2d6d967d00ca7a.jpeg",
@@ -22,15 +22,15 @@
     "static/media/Insilico_generation_pMHC_binders.png": "/portfolio/static/media/Insilico_generation_pMHC_binders.22fd83d1df8445fcc51a.png",
     "static/media/tanks.jpeg": "/portfolio/static/media/tanks.5761ed905be068e484e0.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.b3ec9b46.css.map": "/portfolio/static/css/main.b3ec9b46.css.map",
-    "main.4d36981e.js.map": "/portfolio/static/js/main.4d36981e.js.map",
+    "main.9ede69c3.css.map": "/portfolio/static/css/main.9ede69c3.css.map",
+    "main.c20703b8.js.map": "/portfolio/static/js/main.c20703b8.js.map",
     "418.eee2a2b7.chunk.js.map": "/portfolio/static/js/418.eee2a2b7.chunk.js.map",
     "102.35b1ca4e.chunk.js.map": "/portfolio/static/js/102.35b1ca4e.chunk.js.map",
-    "703.7898cbc0.chunk.js.map": "/portfolio/static/js/703.7898cbc0.chunk.js.map",
+    "703.b1bf620e.chunk.js.map": "/portfolio/static/js/703.b1bf620e.chunk.js.map",
     "814.21f4e360.chunk.js.map": "/portfolio/static/js/814.21f4e360.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3ec9b46.css",
-    "static/js/main.4d36981e.js"
+    "static/css/main.9ede69c3.css",
+    "static/js/main.c20703b8.js"
   ]
 }
